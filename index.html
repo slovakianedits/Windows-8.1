@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Windows 8.1</title>
+</head>
+<body>
+    <div id="main-page">
+        <section>
+            <a class="first-content" href="https://www.google.sk/?hl=en"><img src="https://pngimg.com/d/ie_logo_PNG4.png"
+                height="100px"/></a> <br/>
+            <a class="second-content" href="https://www.google.sk/?hl=en">Internet</a> <br/>
+            <a class="second-content" href="https://www.google.sk/?hl=en">Explorer</a> <br/>
+            <a class="third-content" href="file:///C:/Users/slova/OneDrive/%D0%A0%D0%BE%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D1%96%D0%BB/W/yourcomputer.html"><img src="https://www.freeiconspng.com/thumbs/computer-icon/computer-icon--vista-hardware-devices-iconset--icons-land-17.png"
+                height="150px"/></a> <br/>
+            <a class="fourth-content" href="file:///C:/Users/slova/OneDrive/%D0%A0%D0%BE%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D1%96%D0%BB/W/yourcomputer.html">Your</a> <br/>
+            <a class="fourth-content" href="file:///C:/Users/slova/OneDrive/%D0%A0%D0%BE%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D1%96%D0%BB/W/yourcomputer.html">Computer</a> <br/>
+            <a class="fifth-content" href="file:///C:/Users/slova/OneDrive/%D0%A0%D0%BE%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D1%96%D0%BB/W/yourcomputer.html"><img src="https://static.wikia.nocookie.net/logopedia/images/7/70/Recycle_Bin_Windows_10_empty.PNG/revision/latest/scale-to-width-down/250?cb=20211011004601"
+                height="150px"/></a> <br/>
+            <a class="sixth-content" href="file:///C:/Users/slova/OneDrive/%D0%A0%D0%BE%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D1%96%D0%BB/W/yourcomputer.html">Recycle</a> <br/>
+            <a class="sixth-content" href="file:///C:/Users/slova/OneDrive/%D0%A0%D0%BE%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D1%96%D0%BB/W/yourcomputer.html">Bin</a>       
+        </section>
+        <article>
+            <span id="datetime"></span>
+
+    <script>
+      function updateDateTime() {
+        const now = new Date();
+        const currentDateTime = now.toLocaleString();
+        document.querySelector('#datetime').textContent = currentDateTime;
+      }
+      setInterval(updateDateTime, 1000);
+    </script>
+        </article>
+    </div>
+</body>
+</html>
