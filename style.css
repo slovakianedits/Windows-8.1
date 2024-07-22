@@ -1,0 +1,25 @@
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/801/168/51/windows-8-1-wallpaper-remodeled-wallpaper-preview.jpg);
+    background-size: 1550px;
+}
+.second-content {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.fourth-content {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.sixth-content {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+#datetime {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
